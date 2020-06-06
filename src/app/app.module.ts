@@ -7,6 +7,7 @@ import { TesteComponent } from './teste/teste.component';
 import { Teste2Component } from './teste2/teste2.component';
 import { Teste3Component } from './teste3/teste3.component';
 import { TesteeComponent } from './testee/testee.component';
+import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TesteeComponent } from './testee/testee.component';
     TesteComponent,
     Teste2Component,
     Teste3Component,
-    TesteeComponent
+    TesteeComponent,
+    DiretivaNgswitchComponent
   ],
   imports: [
     BrowserModule
